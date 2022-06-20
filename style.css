@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    padding: 3% 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff4f4
+}
+
+.navbar .logo {
+    font-style: italic;
+    color: #006eff;
+    font-weight: 700;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.navbar .nav_link {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+
+.navbar .nav_link .link1 {
+    margin: 0px 15px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.navbar .nav_link .tweet {
+    margin-left: 5px;
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    background: #00acee;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar .nav_link .tweet:hover {
+    background: #006eff;
+    opacity: 0.9;
+}
+
+.navbar .nav_link .tweet img {
+    height: 28px;
+    width: 28px;
+    vertical-align: middle;
+}
+
+.navbar .nav_link .tweet span {
+    margin: 0px 0px 0px 10px;
+}
+
+.container {
+    display: flex;
+    padding: 0% 9% 3% 9%;
+    background-color: #fff4f4;
+
+}
+
+.container .section-data {
+    margin-right: 45px;
+    width: 60%;
+    margin-top: 5%;
+}
+
+.container .section-data .head-data {
+    font-size: 36px;
+}
+
+.container .section-data .sub-data {
+    font-size: 20px;
+    margin: 20px 0;
+    opacity: 0.6;
+    line-height: 32px;
+}
+
+.container .section-data .more {
+    display: flex;
+    align-items: center;
+}
+
+.container .section-data .more #s1 img {
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.container .section-data .more #s1 {
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    background: #00acee;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .section-data .more #s2 {
+    font-size: 18px;
+    margin: 0px 10px;
+    color: #00acee;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+
+.container .section-data .more #s1:hover {
+    background: #006eff;
+    opacity: 0.9;
+}
+
+.container .section-data .more #s2:hover {
+    color: #006eff;
+    opacity: 0.8;
+
+}
+
+
+
+.container .heroImg {
+    width: 40%;
+    margin-left: 10px;
+}
+
+.container .heroImg img {
+    width: 100%;
+
+}
+
+.container .heroImg-Tab{
+display: none;
+}
+
+.container .section-data .users {
+    margin: 20px 0px;
+    position: relative;
+}
+
+.container .section-data .userData {
+    width: 60%;
+}
+
+.container .section-data .userData span {
+    line-height: 32px;
+    font-weight: 400;
+    opacity: 0.6;
+    font-size: 20px;
+}
+
+.container .section-data .users #userImg2 {
+    position: absolute;
+    left: 25px;
+}
+
+.container .section-data .users #userImg3 {
+    position: absolute;
+    left: 50px;
+}
+
+.container .section-data .users #userImg4 {
+    position: absolute;
+    left: 75px;
+}
+
+.container .section-data .users #userImg5 {
+    position: absolute;
+    left: 100px;
+}
+
+.container .section-data .users #userImg6 {
+    position: absolute;
+    left: 125px;
+}
+
+.container .section-data .users #userImg7 {
+    position: absolute;
+    left: 150px;
+}
+
+.container .section-data .users #userImg8 {
+    position: absolute;
+    left: 175px;
+}
+
+.container .section-data .users #userImg9 {
+    position: absolute;
+    left: 200px;
+}
+
+.features {
+    padding: 0% 9%;
+    margin: 6% 0%;
+}
+
+.features .featureHead {
+
+    font-size: 26px;
+
+}
+
+.features .featureCardMain {
+    display: flex;
+    width: 100%;
+
+
+}
+
+.features .featureCardMain .featureCard {
+    width: 100%;
+    padding: 2%;
+    margin: 20px 0px 20px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.379);
+    border-radius: 5px;
+
+}
+
+.features .featureCardMain #featureCard {
+    margin: 20px 20px 20px 0px;
+}
+
+.features .featureCardMain .featureCard h1 {
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.features .featureCardMain .featureCard p {
+    font-size: 20px;
+    line-height: 32px;
+    opacity: 0.6;
+
+}
+
+.features .featureCardMain .featureCard .card-img {
+    width: 50px;
+}
+
+.userSection {
+    padding: 6% 9%;
+    background: #d7f5f5;
+}
+
+.userSection .userHead {
+    font-size: 26px;
+    margin-bottom: 4%;
+}
+
+.userSection .userCardMain {
+    display: flex;
+}
+
+.userSection .userCardMain .userCard {
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+}
+
+.userSection .userCardMain #userCard1 {
+
+    margin-right: 20px;
+}
+
+.userSection .userCardMain #userCard3 {
+
+    margin-left: 20px;
+}
+
+.userSection .userCardMain .userCard p {
+    font-size: 20px;
+    opacity: 0.8;
+    margin: 20px 0px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.userSection .userCardMain .userCard .customerData {
+    display: flex;
+    align-items: center;
+
+}
+
+.userSection .userCardMain .userCard .customerData .customerName {
+    width: 100%;
+    line-height: 0.8;
+    display: flex;
+    flex-direction: column;
+}
+
+.userSection .userCardMain .userCard .customerData img:nth-child(1) {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.userSection .userCardMain .userCard .customerData span:nth-child(1) {
+    margin: 2%;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.userSection .userCardMain .userCard .customerData span:nth-child(2) {
+    margin: 2%;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.userSection .userCardMain .userCard .userRating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.userSection .userCardMain .userCard .userRating .tweetDate {
+    opacity: 0.8;
+}
+
+.userSection .userCardMain .userCard .userRating div {
+    display: flex;
+    align-items: center;
+}
+
+.userSection .userCardMain .userCard .userRating div .likeCount {
+    margin: 0px 10px;
+    opacity: 0.8;
+}
+
+.priceSection {
+    padding: 6% 9%;
+}
+
+.priceSection .priceHead {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2% 24%;
+    align-items: center;
+
+}
+
+.priceSection .priceHead h1 {
+    font-size: 45px;
+}
+
+.priceSection .priceHead p {
+    font-size: 20px;
+    padding: 16px;
+    opacity: 0.8;
+}
+
+.priceSection .priceCardMain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.priceSection .priceCardMain .priceCard {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 191, 0, 0.929);
+    padding: 3%;
+    width: 45%;
+    background-color: #fff4f4
+}
+
+.priceSection .priceCardMain .priceCard .priceTag {
+    font-size: 24px;
+}
+
+.priceSection .priceCardMain .priceCard .priceTag p {
+    opacity: 0.6;
+}
+
+.priceSection .priceCardMain .priceCard .priceTag div {
+    margin: 0%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.priceSection .priceCardMain .priceCard .priceTag div #price {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.priceSection .priceCardMain .priceCard .priceTag div #validity {
+    opacity: 0.6;
+    margin-bottom: 8px;
+}
+
+.priceSection .priceCardMain .priceCard hr {
+    margin: 3% 0;
+    opacity: 0.6;
+}
+
+.priceSection .priceCardMain .priceCard .priceOfferDetail {
+    line-height: 32px;
+}
+
+.priceSection .priceCardMain .priceCard .priceOfferDetail .offerDetail img {
+    margin-right: 15px;
+    padding: 5px;
+
+}
+
+.priceSection .priceCardMain .priceCard .priceOfferDetail .offerDetail {
+    margin: 25px 0;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.priceSection .priceCardMain .priceCard .priceOfferDetail .offerDetail span {
+    opacity: 0.6;
+
+}
+
+.priceSection .priceCardMain .priceCard .trialPeriod {
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    background: #00acee;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.priceSection .priceCardMain .priceCard .trialPeriod span {
+    margin: 0px 0px 0px 10px;
+}
+
+.priceSection .priceCardMain .priceCard .trialPeriod img {
+    height: 28px;
+    width: 28px;
+}
+
+.priceSection .priceCardMain .priceCard .trialPeriod:hover {
+    background: #006eff;
+    opacity: 0.9;
+}
+
+.footerMain {
+    padding: 2% 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d7f5f5;
+}
+
+.footerMain .footerLinks {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.footerMain .footerLinks .footerLink {
+    margin: 0px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.footerMain .logo {
+    font-style: italic;
+    color: #006eff;
+    font-weight: 700;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .navbar .nav_link {
+        display: none;
+    }
+
+    .navbar {
+        padding: 6% 9%;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .container .heroImg {
+        width: 100%;
+        margin-left: 0;
+        display: block;
+    }
+
+    .container .section-data {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .container .section-data .head-data {
+        font-size: 19.5px;
+    }
+
+    .container .section-data .sub-data {
+        font-size: 15px;
+    }
+
+    .container .section-data .more {
+        flex-direction: column;
+    }
+
+    .container .section-data .more #s1 {
+        width: 100%;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .container .section-data .userData {
+        width: 100%;
+    }
+
+    .container .section-data .userData span {
+        font-size: 15px;
+        line-height: 32px;
+    }
+
+    .userSection .userCardMain {
+        flex-direction: column;
+    }
+
+    .userSection .userCardMain .userCard {
+        padding: 7%;
+    }
+
+    .userSection .userCardMain #userCard1 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .userSection .userCardMain #userCard3 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .userSection .userCardMain .userCard .customerData img:nth-child(1) {
+        width: 90px;
+    }
+
+    .userSection .userCardMain .userCard p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .userSection .userCardMain .userCard .customerData span:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .userSection .userCardMain .userCard .customerData span:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .userSection .userCardMain .userCard .userRating {
+        font-size: 16px;
+    }
+
+    .userSection .userCardMain .userCard .customerData img:nth-last-child(1) {
+        width: 9%;
+    }
+    .features .featureCardMain .featureCard{
+        margin: 20px 0px 20px 0px;
+    }
+    .features .featureCardMain{
+        flex-direction: column;
+    }
+    .features .featureCardMain #featureCard{
+        margin: 20px 0px 20px 0px;
+    }
+    .container{
+        padding: 0% 6% 3% 6%;
+    }
+    .features{
+        padding: 0% 6%
+    }
+    .features .featureCardMain .featureCard .card-img{
+        width: 40px;
+    }
+    .features .featureCardMain .featureCard h1{
+        font-size: 18px;
+    }
+    .features .featureCardMain .featureCard p{
+        font-size: 16px;
+    }
+    .features .featureCardMain .featureCard{
+        padding: 4%;
+    }
+    .features .featureHead{
+        font-size: 24px;
+    }
+    .userSection .userHead{
+        font-size: 24px;
+    }
+    .priceSection{
+        padding: 18% 6%;
+    }
+    .priceSection .priceHead{
+        padding: 10% 0%;
+    }
+    .priceSection .priceHead h1{
+        font-size: 32px;
+    }
+    .priceSection .priceHead p{
+        font-size: 16px;
+        padding: 14px;
+        line-height: 1.5;
+    }
+    .priceSection .priceCardMain .priceCard{
+        width: 100%;
+        padding: 8%;
+    }
+    .priceSection .priceCardMain .priceCard .priceTag div #price{
+        font-size: 45px;
+    }
+    .priceSection .priceCardMain .priceCard .priceTag{
+        font-size: 20px;
+    }
+    .priceSection .priceCardMain .priceCard .priceOfferDetail .offerDetail{
+        font-size: 15px;
+        margin: 16px 0;
+    }
+    .priceSection .priceCardMain .priceCard .priceOfferDetail .offerDetail img{
+        margin-right: 8px;
+        width: 30px;
+    }
+    .priceSection .priceCardMain .priceCard .trialPeriod{
+        font-size: 15px;
+        padding: 10px 25px;
+    }
+    .priceSection .priceCardMain .priceCard .trialPeriod img{
+        width: 18px;
+    }
+    .footerMain{
+        flex-direction: column;
+        align-items: flex-start;
+        line-height: 1.9;
+    }
+    .footerMain .footerLinks .footerLink{
+        margin: 0;
+    }
+    .footerMain .footerLinks{
+        font-size: 16px;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .navbar .nav_link {
+        display: none;
+    }
+
+    .navbar {
+        padding: 6% 9%;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .container .heroImg-Tab{
+        display: block;
+
+    }
+    .container .heroImg-Tab img{
+        width: 100%;
+    }
+
+    .container .heroImg {
+        width: 100%;
+        margin-left: 0;
+        display: none;
+    }
+
+    .container .section-data {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .container .section-data .head-data {
+        font-size: 19.5px;
+    }
+
+    .container .section-data .sub-data {
+        font-size: 15px;
+    }
+
+    .container .section-data .more {
+        flex-direction: column;
+    }
+
+    .container .section-data .more #s1 {
+        width: 100%;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .container .section-data .userData {
+        width: 100%;
+    }
+
+    .container .section-data .userData span {
+        font-size: 15px;
+        line-height: 32px;
+    }
+
+    .userSection .userCardMain {
+        flex-direction: column;
+    }
+
+    .userSection .userCardMain .userCard {
+        padding: 7%;
+    }
+
+    .userSection .userCardMain #userCard1 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .userSection .userCardMain #userCard3 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .userSection .userCardMain .userCard .customerData img:nth-child(1) {
+        width: 90px;
+    }
+
+    .userSection .userCardMain .userCard p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .userSection .userCardMain .userCard .customerData span:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .userSection .userCardMain .userCard .customerData span:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .userSection .userCardMain .userCard .userRating {
+        font-size: 16px;
+    }
+
+    .userSection .userCardMain .userCard .customerData img:nth-last-child(1) {
+        width: 9%;
+    }
+    .features .featureCardMain .featureCard{
+        margin: 20px 0px 20px 0px;
+    }
+    .features .featureCardMain{
+        flex-direction: column;
+    }
+    .features .featureCardMain #featureCard{
+        margin: 20px 0px 20px 0px;
+    }
+    .container{
+        padding: 0% 6% 3% 6%;
+    }
+    .features{
+        padding: 0% 6%
+    }
+    .features .featureCardMain .featureCard .card-img{
+        width: 40px;
+    }
+    .features .featureCardMain .featureCard h1{
+        font-size: 18px;
+    }
+    .features .featureCardMain .featureCard p{
+        font-size: 16px;
+    }
+    .features .featureCardMain .featureCard{
+        padding: 4%;
+    }
+    .features .featureHead{
+        font-size: 24px;
+    }
+    .userSection .userHead{
+        font-size: 24px;
+    }
+    .priceSection{
+        padding: 18% 6%;
+    }
+    .priceSection .priceHead{
+        padding: 10% 0%;
+    }
+    .priceSection .priceHead h1{
+        font-size: 32px;
+    }
+    .priceSection .priceHead p{
+        font-size: 16px;
+        padding: 14px;
+        line-height: 1.5;
+    }
+    .priceSection .priceCardMain .priceCard{
+        width: 100%;
+        padding: 8%;
+    }
+    .priceSection .priceCardMain .priceCard .priceTag div #price{
+        font-size: 45px;
+    }
+    .priceSection .priceCardMain .priceCard .priceTag{
+        font-size: 20px;
+    }
+    .priceSection .priceCardMain .priceCard .priceOfferDetail .offerDetail{
+        font-size: 15px;
+        margin: 16px 0;
+    }
+    .priceSection .priceCardMain .priceCard .priceOfferDetail .offerDetail img{
+        margin-right: 8px;
+        width: 30px;
+    }
+    .priceSection .priceCardMain .priceCard .trialPeriod{
+        font-size: 15px;
+        padding: 10px 25px;
+    }
+    .priceSection .priceCardMain .priceCard .trialPeriod img{
+        width: 18px;
+    }
+    .footerMain{
+        flex-direction: column;
+        align-items: flex-start;
+        line-height: 1.9;
+    }
+    .footerMain .footerLinks .footerLink{
+        margin: 0;
+    }
+    .footerMain .footerLinks{
+        font-size: 16px;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
